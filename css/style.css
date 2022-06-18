@@ -1,0 +1,229 @@
+:root {
+  /* fonts */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  /* colors */
+  --accent-color: #2196f3;
+  --nav-txt-cl: #212121;
+  --btn-hover: #188ce8;
+  --white-color: #ffffff;
+  --often-color: #757575;
+  /* bg-colors */
+  --hero-color: #2f303a;
+  /* others */
+}
+
+body {
+  font-family: var(--main-font), sans-serif;
+  font-size: 14px;
+  line-height: 1.67;
+  color: var(--often-color);
+}
+/* common styles start */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+/* common styleas end */
+.logo {
+  color: var(--accent-color);
+  font-size: 26px;
+  font-family: var(--secondary-font);
+}
+.logo-st {
+  color: var(--nav-txt-cl);
+  font-size: 26px;
+}
+
+.footer > .logo-st {
+  color: var(--white-color);
+}
+
+.header-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--nav-txt-cl);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  background-color: var(--hero-color);
+}
+
+.header-contact-item,
+.header-list-item,
+.header-link,
+.link,
+.contacts-footer-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--nav-txt-cl);
+}
+
+.contacts-footer-item {
+  color: var(--white-color);
+}
+
+.header-contact-item:hover,
+.header-contact-item:focus,
+.contacts-footer-item:hover,
+.contacts-footer-item:focus {
+  color: var(--accent-color);
+}
+
+.main-name {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.hero-btn {
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--white-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--btn-hover);
+}
+
+/* about */
+.about-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--nav-txt-cl);
+}
+
+.about-txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--often-color);
+}
+
+/* what we do */
+.wwd-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--nav-txt-cl);
+}
+
+.wwd {
+  font-size: 36px;
+  color: var(--nav-txt-cl);
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.command {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--nav-txt-cl);
+}
+/* footer */
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--nav-txt-cl);
+}
+
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--often-color);
+}
+
+.prt-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--nav-txt-cl);
+  font-family: inherit;
+}
+
+.button.current {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.prt-btn:hover {
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--white-color);
+}
+
+.link.current {
+  color: var(--accent-color);
+}
+
+.item-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--nav-txt-cl);
+}
+
+.item-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--often-color);
+}
+
+.link-cnt {
+  color: var(--often-color);
+}
+
+.link-cnt:hover,
+.link-cnt:focus {
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: var(--hero-color);
+}
