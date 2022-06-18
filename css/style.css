@@ -19,6 +19,18 @@ body {
   line-height: 1.67;
   color: var(--often-color);
 }
+
+h1,h2,h3,p,ul{
+  margin: 0;
+}
+
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
 /* common styles start */
 .link {
   text-decoration: none;
@@ -35,6 +47,10 @@ body {
 }
 .logo-st {
   color: var(--nav-txt-cl);
+  font-size: 26px;
+}
+
+.studio {
   font-size: 26px;
 }
 
