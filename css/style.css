@@ -211,12 +211,13 @@ img {
   display: flex;
   margin-top: 94px;
   margin-bottom: 94px;
+  justify-content: space-between;
 }
 
 .about-items {
   width: 270px;
   height: 101px;
-  margin: auto;
+  padding-right: 30px;
 }
 
 
@@ -238,6 +239,22 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.wwd-container {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.wwd-container:not(:last-child) {
+  padding-right: 30px;
+}
+
+.wwd-items {
+  width: 370px;
+  height: 294px;
 }
 /* Command */
 .command {
