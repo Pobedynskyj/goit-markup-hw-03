@@ -159,11 +159,9 @@ img {
 
 /* hero */
 
-.hero {
-  height: 600px;
-}
 
 .hero-btn {
+  display: block;
   font: inherit;
   font-size: 16px;
   font-weight: 600;
@@ -171,14 +169,16 @@ img {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
   height: 50px;
-  border-radius: 4px;
   align-items: center;
+
 }
+
+
+
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -202,6 +202,24 @@ img {
   letter-spacing: 0.03em;
   color: var(--often-color);
 }
+
+.about-list {
+
+}
+
+.about-container-list {
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.about-items {
+  width: 270px;
+  height: 101px;
+  margin: auto;
+}
+
+
 
 /* what we do */
 .wwd-name {
