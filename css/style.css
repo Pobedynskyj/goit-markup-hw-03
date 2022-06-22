@@ -184,6 +184,12 @@ img {
   flex-wrap: wrap;
 }
 
+.main-prt-item {
+  box-sizing: border-box;
+  border: 1px solid #EEEEEE;
+  background-color: var(--white-color);
+}
+
 /* hero */
 
 .hero-btn {
