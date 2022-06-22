@@ -52,6 +52,8 @@ img {
   margin: 0;
   padding: 0;
 }
+
+
 /* reset end */
 /* common styleas end */
 .logo {
@@ -82,6 +84,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--nav-txt-cl);
+  display: flex;
+  align-items: center;
+  
 }
 
 .header {
@@ -124,7 +129,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--nav-txt-cl);
 }
@@ -138,13 +143,24 @@ img {
   padding-bottom: 32px;
 }
 
+.link.logo-st {
+  margin-right: 93px;
+}
+
 /* contacts */
 .contacts {
   margin-left: auto;
 }
 
+.contacts-footer {
+  margin-top: 24px;
+}
+
 .contacts-footer-item {
   color: var(--white-color);
+}
+
+.contacts-footer-item:not(last-child) {
   margin-bottom: 9px;
 }
 
@@ -169,7 +185,7 @@ img {
 .main-name {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 35;
+  line-height: 1.35;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -192,7 +208,6 @@ padding-bottom: 94px;
 
 .main-prt-item {
   box-sizing: border-box;
-  border: 1px solid #EEEEEE;
   background-color: var(--white-color);
   margin: 15px;
   width: calc(100% / 3 -30px);
@@ -201,6 +216,13 @@ padding-bottom: 94px;
 
 .item-group {
   padding: 20px 24px;
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-right : 1px solid #EEEEEE;
+}
+
+.item-p {
+  margin-top: 4px;
 }
 /* hero */
 
@@ -225,6 +247,7 @@ padding-bottom: 94px;
   padding: 10px 32px;
   height: 50px;
   align-items: flex-start;
+  border: none;
 }
 
 .hero-btn:hover,
@@ -275,6 +298,11 @@ padding-bottom: 94px;
 
 /* what we do */
 
+.what-we-do {
+  padding: 94px 0px;
+
+}
+
 .wwd-name {
   font-weight: 700;
   font-size: 36px;
@@ -296,7 +324,7 @@ padding-bottom: 94px;
 
 .wwd-container {
   display: flex;
-  margin: -15px;
+  
 }
 
 .wwd-container:not(:last-child) {
@@ -306,7 +334,7 @@ padding-bottom: 94px;
 .wwd-items {
   width: 370px;
   height: 294px;
-  margin: 15px;
+
 }
 
 .container-team > .item:not(:last-child) {
@@ -329,7 +357,6 @@ padding-bottom: 94px;
   display: flex;
 }
 .command-item {
-  margin-bottom: 108px;
   background: var(--white-color);
   /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
